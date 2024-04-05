@@ -1,9 +1,20 @@
+import bgImage from "../assets/images/rectangle1.png";
+
 const Home = () => {
-    return (
-        <div>
-            <h2>This is homepage</h2>
-        </div>
-    );
+  return (
+    <div
+      className={`fixed inset-0 flex items-center justify-center`}
+      style={{
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(${bgImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        boxSizing: "border-box",
+      }}
+    >
+      <h2 className="text-center text-6xl text-white">This is homepage</h2>
+    </div>
+  );
 };
 
 export default Home;
