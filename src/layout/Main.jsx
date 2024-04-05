@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 
 const Main = () => {
   return (
-    <div>
+    <div className="font-mont">
       <div className="absolute z-10 w-full">
         <Nav></Nav>
       </div>
