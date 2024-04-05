@@ -1,9 +1,12 @@
 import { Outlet } from "react-router-dom";
+import Nav from "../components/Nav";
 
 const Main = () => {
   return (
-    <div className="relative">
-      <h2 className="text-white text-center absolute top-0 left-0 right-0 z-10">This is Navbar</h2>
+    <div>
+      <div className="absolute z-10 w-full">
+        <Nav></Nav>
+      </div>
       <Outlet />
     </div>
   );

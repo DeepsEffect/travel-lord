@@ -3,7 +3,7 @@ import bgImage from "../assets/images/rectangle1.png";
 const Home = () => {
   return (
     <div
-      className={`fixed inset-0 flex items-center justify-center`}
+      className={`relative inset-0 flex items-center justify-center h-screen`}
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)), url(${bgImage})`,
         backgroundSize: "cover",
