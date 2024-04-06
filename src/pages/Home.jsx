@@ -1,4 +1,5 @@
 import bgImage from "../assets/images/rectangle1.png";
+import Hero from "../components/Hero";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
         boxSizing: "border-box",
       }}
     >
-      <h2 className="text-center text-6xl text-white">This is homepage</h2>
+      <Hero></Hero>
     </div>
   );
 };
