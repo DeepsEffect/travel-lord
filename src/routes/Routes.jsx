@@ -4,6 +4,7 @@ import Main from "../layout/Main";
 import Destination from "../pages/Destination";
 import Blog from "../pages/Blog";
 import Contact from "../pages/Contact";
+import DestinationDetails from "@/pages/DestinationDetails";
 
 export const router = createBrowserRouter([
   {
@@ -15,17 +16,21 @@ export const router = createBrowserRouter([
         element: <Home></Home>,
       },
       {
-        path: '/destination',
-        element: <Destination></Destination>
+        path: "/destination",
+        element: <Destination></Destination>,
       },
       {
-        path: '/blog',
-        element: <Blog></Blog>
+        path: "/destinationDetails/:id",
+        element: <DestinationDetails></DestinationDetails>,
       },
       {
-        path: '/contact',
-        element: <Contact></Contact>
-      }
+        path: "/blog",
+        element: <Blog></Blog>,
+      },
+      {
+        path: "/contact",
+        element: <Contact></Contact>,
+      },
     ],
   },
 ]);

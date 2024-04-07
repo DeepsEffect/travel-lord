@@ -54,7 +54,7 @@ const Hero = () => {
                 className="md:basis-1/2 lg:basis-4/5"
               >
                 <div className="p-1">
-                  <Link to={`/destinationDetails${destination.id}`}>
+                  <Link to={`/destinationDetails/${destination.id}`}>
                     <img
                       src={destination.image_url}
                       alt={`Hero Image ${destination.id}`}
