@@ -22,10 +22,10 @@ const Hero = () => {
   console.log(imageUrls);
 
   return (
-    <section className="w-full text-white mt-32  lg:mt-10">
+    <section className="w-full text-white mt-96 lg:mt-10">
       <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
         <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-          <h1 className="text-5xl font-bold leading-none sm:text-6xl">
+          <h1 className=" text-3xl lg:text-5xl font-bold leading-none sm:text-6xl">
             Cox&apos;s
             <span> bazar</span>
           </h1>
@@ -61,7 +61,9 @@ const Hero = () => {
                       className="w-[400px] h-[350px] lg:w-[800px] lg:h-[550px] object-cover rounded-2xl"
                     />
                   </Link>
-                  <span className="text-white relative left-5 bottom-20 font-bebas text-4xl ">{destination.destination_name}</span>
+                  <span className="text-white relative left-5 bottom-20 font-bebas text-4xl ">
+                    {destination.destination_name}
+                  </span>
                 </div>
               </CarouselItem>
             ))}
