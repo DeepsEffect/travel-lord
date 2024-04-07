@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "destination_name": "Cox's Bazar",
+      "image_url": "https://images.unsplash.com/photo-1509233725247-49e657c54213?q=80&w=1949&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Cox's Bazar, located in Bangladesh, is famous for having the longest natural sea beach in the world. It's a popular tourist destination known for its pristine sandy beaches, clear blue waters, and stunning sunsets. Visitors can enjoy activities such as swimming, sunbathing, and beach sports.",
+      "location": "Chittagong Division, Bangladesh",
+      "activities": ["Swimming", "Sunbathing", "Beach Sports"]
+    },
+    {
+      "id": 2,
+      "destination_name": "Sreemangal",
+      "image_url": "https://images.unsplash.com/photo-1656253814254-7e697b0e5d50?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Sreemangal, often referred to as the 'Tea Capital of Bangladesh', is renowned for its lush tea gardens, scenic landscapes, and tranquil atmosphere. Visitors can explore tea estates, hike through tropical forests, and visit attractions such as Lawachara National Park and Madhabpur Lake.",
+      "location": "Sylhet Division, Bangladesh",
+      "activities": ["Tea Estate Tours", "Hiking", "Nature Exploration"]
+    },
+    {
+      "id": 3,
+      "destination_name": "Sundarbans",
+      "image_url": "https://images.unsplash.com/photo-1549300461-11c5b94e8855?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "The Sundarbans, located in Bangladesh and India, is the largest mangrove forest in the world and a UNESCO World Heritage Site. It's home to the Royal Bengal Tiger, diverse wildlife, and unique ecosystems. Visitors can embark on boat tours, observe wildlife, and explore the rich biodiversity of the region.",
+      "location": "Khulna Division, Bangladesh",
+      "activities": ["Boat Tours", "Wildlife Watching", "Exploring Nature"]
+    },
+    {
+      "id": 4,
+      "destination_name": "Bandarban",
+      "image_url": "https://images.unsplash.com/photo-1624485871361-65454b13edfa?q=80&w=2058&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Bandarban, situated in the Chittagong Hill Tracts of Bangladesh, is renowned for its picturesque landscapes, tribal culture, and adventurous activities. Visitors can trek to hilltops, visit tribal villages, and explore attractions such as Nilgiri Hills, Boga Lake, and Buddha Dhatu Jadi.",
+      "location": "Chittagong Hill Tracts, Bangladesh",
+      "activities": ["Trekking", "Visiting Tribal Villages", "Exploring Natural Attractions"]
+    },
+    {
+      "id": 5,
+      "destination_name": "Sunamganj",
+      "image_url": "https://images.unsplash.com/photo-1632930433659-f1b1c9076ca5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Sunamganj, located in northeastern Bangladesh, is known for its serene rivers, wetlands, and scenic beauty. Visitors can explore Haor areas, take boat rides on rivers, and witness migratory birds during the winter season. Sunamganj offers a peaceful retreat amidst nature's bounty.",
+      "location": "Sylhet Division, Bangladesh",
+      "activities": ["Boat Rides", "Bird Watching", "Exploring Wetlands"]
+    }
+  ]
+  

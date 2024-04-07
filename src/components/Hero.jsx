@@ -37,11 +37,11 @@ const Hero = () => {
           opts={{
             align: "start",
           }}
-          className="w-full max-w-3xl"
+          className="w-full lg:max-w-3xl"
         >
           <CarouselContent>
             {images.map((image, index) => (
-              <CarouselItem key={index} className="md:basis-1/2 lg:basis-2/3">
+              <CarouselItem key={index} className="md:basis-1/2 lg:basis-4/5">
                 <div className="p-1">
                   <Link to={`/destinationDetails${index + 1}`}>
                     <img
@@ -54,8 +54,11 @@ const Hero = () => {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          {/* buttons */}
+          <div className="hidden lg:flex">
+            <CarouselPrevious />
+            <CarouselNext />
+          </div>
         </Carousel>
       </div>
     </section>
